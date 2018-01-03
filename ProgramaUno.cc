@@ -1,5 +1,6 @@
 //Autor: David Sorcia Hernandez
 //Al dar el numero entero 20, el valor de P = 20
+//Faltó añadir tu fecha de nacimiento para correr tu programa y reportar la salida del programa como respuesta del inciso b de este problema. 
 
 #include <iostream>
 using namespace std;

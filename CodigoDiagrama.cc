@@ -10,8 +10,10 @@ using namespace std;
 
 int main(){
     int x=1;
-    
-    do{while(x<=5)
+
+    //Este do no tiene sentido y hace que tu programa nunca termine de ejecutarse. 
+    //    do{
+    while(x<=5)
     if ((x%3)==0){
         x=x+2;
     }
@@ -19,7 +21,7 @@ int main(){
         cout << "El valor de x es =" << x << endl;
         x=x+2;
     }
-}while (x>5);
+    //}while (x>5);
 
     return 0;
 }
